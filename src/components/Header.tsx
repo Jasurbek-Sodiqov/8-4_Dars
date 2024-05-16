@@ -56,11 +56,6 @@ const Header: FC<PrTaype> = (props) => {
 
   return (
     <div className="flex max-w-[1440px] justify-between mx-auto items-center gap-24 pt-8 border-b-2 border-blue-500">
-      <img
-        className="w-28"
-        src="https://media3.giphy.com/media/YV3pnketRSh20PsLf1/giphy.gif?cid=6c09b952jivw9htujuufx2rhhd33vv11gz1bhhlj7tdgl0qn&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s"
-        alt=""
-      />
       <div className="flex-1">
         <label className="input input-bordered flex items-center gap-2">
           <input
