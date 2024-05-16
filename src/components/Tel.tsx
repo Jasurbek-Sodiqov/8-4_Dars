@@ -55,7 +55,7 @@ function Tel() {
             <img className="h-[200px]" src={rasm[1]} alt="" />
             <img className="h-[200px]" src={rasm[2]} alt="" />
           </div>
-          <div className="pl-32 flex justify-center">
+          <div className="pl-32 justify-center">
             <h2>Telefon nomi: {tel.name}</h2>
             <p>Telefon haqida: {tel.description}</p>
             <p>Satatus: {tel.status}</p>
