@@ -58,12 +58,6 @@ const Header: FC<PrTaype> = (props) => {
     <div className="flex max-w-[1440px] justify-between mx-auto items-center gap-24 pt-8 border-b-2 border-blue-500">
       <div className="flex-1">
         <label className="input input-bordered flex items-center gap-2">
-          <input
-            type="text"
-            onChange={(e) => props.sch(e.target.value)}
-            className="grow"
-            placeholder="Search"
-          />
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 16 16"
